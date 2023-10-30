@@ -1,0 +1,23 @@
+# build output
+dist
+
+# coverage
+coverage
+
+# dependencies
+node_modules
+
+# local env files
+.env*.local
+
+# logs & pids
+*.log
+pids
+
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json

@@ -1,0 +1,49 @@
+{
+  "name": "web",
+  "private": true,
+  "type": "module",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "tsc && vite build",
+    "format": "prettier --write .",
+    "lint": "eslint --fix",
+    "start": "vite"
+  },
+  "dependencies": {
+    "i18next": "23.6.0",
+    "i18next-http-backend": "2.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-i18next": "13.3.0",
+    "react-router-dom": "6.17.0",
+    "shared": "0.0.0",
+    "styled-components": "6.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@types/styled-components": "5.1.29",
+    "@typescript-eslint/eslint-plugin": "6.0.0",
+    "@typescript-eslint/parser": "6.0.0",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "eslint": "8.45.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "5.0.1",
+    "eslint-plugin-react": "7.33.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "10.0.0",
+    "eslint-plugin-sort": "2.11.0",
+    "husky": "8.0.3",
+    "lint-staged": "15.0.1",
+    "prettier": "3.0.3",
+    "typescript": "5.0.2",
+    "vite": "4.4.5",
+    "vite-plugin-eslint": "1.8.1",
+    "vite-plugin-svgr": "4.1.0",
+    "vite-tsconfig-paths": "4.2.1"
+  }
+}

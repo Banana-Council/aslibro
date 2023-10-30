@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": false,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "module": "commonjs",
+    "moduleResolution": "Node",
+    "outDir": "./dist",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "removeComments": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2021",
+    "useDefineForClassFields": true
+  }
+}
