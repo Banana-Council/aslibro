@@ -8,11 +8,9 @@ import { MongooseModule } from '@nestjs/mongoose'
 import { ConsoleModule } from 'nestjs-console'
 
 import LoggerMiddleware from '~/middleware/logger'
-import { AppController } from '~/src/app.controller'
-import { AppService } from '~/src/app.service'
 
 @Module({
-  controllers: [AppController],
+  controllers: [],
   imports: [
     ConfigModule.forRoot({
       envFilePath: [
@@ -32,7 +30,7 @@ import { AppService } from '~/src/app.service'
       connectionName: EVENTSTORE_KEYSTORE_CONNECTION,
     }),
   ],
-  providers: [AppService],
+  providers: [],
 })
 export class AppModule implements NestModule {
   configure(consumer: MiddlewareConsumer) {
