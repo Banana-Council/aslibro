@@ -9,9 +9,12 @@ import { ConsoleModule } from 'nestjs-console'
 
 import LoggerMiddleware from '~/middleware/logger'
 
+import BookModule from './book/infrastructure/module'
+
 @Module({
   controllers: [],
   imports: [
+    BookModule,
     ConfigModule.forRoot({
       envFilePath: [
         `.env.${process.env.NODE_ENV}.local`,
